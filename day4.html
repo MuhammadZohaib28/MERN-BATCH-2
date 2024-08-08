@@ -12,40 +12,54 @@
 </head>
 
 <body>
-    <h1>FORMS + CSS</h1>
 
-    <!-- <marquee behavior="scroll" direction="right">Welcome to Day 4</marquee> -->
+    <!-- kebab-case-convention -->
+    <!-- snake_case_convention -->
+    <!-- camelCaseConvention -->
 
-    <form>
-        <label for="Email">Email</label> <br>
-        <input placeholder="Enter Your Email" type="email" required /> <br>
+    <div class="form-container">
+        <h1>FORMS + CSS</h1>
+        <form>
+            <label for="Email">Email</label> <br>
+            <input placeholder="Enter Your Email" type="email" required /> <br>
 
-        <label for="Password">Password</label> <br>
-        <input placeholder="Enter Your Password" type="password" /> <br>
+            <label for="Password">Password</label> <br>
+            <input placeholder="Enter Your Password" type="password" /> <br>
 
+            <span>Gender</span> <br>
+            <div class="gender">
+                <label for="gender">Male</label> <br>
+                <input type="radio" name="gender" /> <br>
 
-        <span>Gender</span> <br>
-        <label for="gender">Male</label> <br>
-        <input type="radio" name="gender" /> <br>
-
-        <label for="">Female</label> <br>
-        <input type="radio" name="genderr" /> <br>
-
-        <span>Hobbies</span> <br>
-
-        <label for="hobbies">Reading</label> <br>
-        <input type="checkbox" /> <br>
-
-
-        <label for="hobbies">Swimming</label> <br>
-        <input type="checkbox" /> <br>
+                <label for="">Female</label> <br>
+                <input type="radio" name="gender" /> <br>
+            </div>
 
 
-        <label for="hobbies">Playing</label> <br>
-        <input type="checkbox" /> <br>
 
-        <button type="submit">Login</button>
-    </form>
+
+            <span>Hobbies</span> <br>
+
+            <div class="gender">
+
+                <label for="hobbies">Reading</label> <br>
+                <input type="checkbox" /> <br>
+
+
+                <label for="hobbies">Swimming</label> <br>
+                <input type="checkbox" /> <br>
+
+
+                <label for="hobbies">Playing</label> <br>
+                <input type="checkbox" /> <br>
+            </div>
+
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+
 
 
 </body>
