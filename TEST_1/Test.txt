@@ -1,0 +1,14 @@
+QNO 1 -  Create a form UI where FORM should be in Center and having 
+First Name,
+Last Name,
+Username,
+Email,
+Passowrd,
+Father Name,
+Gender - Male, Female, Other, 
+Hobbies - 4 hobbies 
+and Submit Button.
+
+FORM SHOULD BE IN Center
+
+CREATE A BEAUTIFUL UI OF YOUR CHOICE
