@@ -1,0 +1,30 @@
+Question 1
+Write a `for loop` that prints all the even numbers between 1 and 10 in the console and generate table of any number in this formate 
+
+6 X 1 = 6
+
+---
+
+ Question 2:
+Write a `switch` statement that takes a variable `grade` and prints `"Excellent"` if the grade is `"A"`, `"Good"` if the grade is `"B"`, `"Pass"` if the grade is `"C"`, and `"Fail"` if the grade is `"D"` or `"F"`.
+
+---
+
+ Question 3:
+Declare a variable `number` using `let`. Write an `if-else` statement that checks if the variable is greater than 100. If it is, print `"Number is greater than 100"`, otherwise print `"Number is 100 or less"`.
+
+---
+
+Question 4:
+Write a `for loop` that iterates from 1 to 5 and logs `"Hello, World!"` to the console for each iteration.
+
+---
+
+ Question 5:
+
+ Hello, my name is  "YOUR NAME"  and my age is "YOUR AGE" and there are only "BIRTHDAY DAYS LEFT" in my birthday.
+
+ 
+
+---
+
