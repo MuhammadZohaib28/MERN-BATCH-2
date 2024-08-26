@@ -1,36 +1,52 @@
-//  ITRATIONS
+//ARRAY 
 
-// 1. for loop
-// 2. while loop
-// 3. do while loop
+var fruits = ["Apple", "Banana", "Mango", "Orange", "Pineapple"];
 
-// For Loop
+fruits.push("Guava")
+// fruits.pop();
+fruits.shift();
 
-let studentName = "Ali";
-console.log(studentName);
+// console.log(fruits);
 
-// var tableNum = prompt("Enter table number");
 
-var tableNum = 2;
+// for(let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i]);
+// }
 
-for (let i = 1; i <= 10; i++) {
-    console.log(`${tableNum} X ${i} = ${tableNum * i}`);
+// OBJECTS IN JS
+
+let studentData = {
+    name: "Farheen",
+    age: 25,
+    cellPhoneNum: 1234567890,
 }
 
 
+let nsfMernBatch = [
+    {
+        name: "Hasnain",
+        age: 15,
+        cellPhoneNum: 1234567890,
+    },
+    {
+        name: "Farheen",
+        age: 25,
+        cellPhoneNum: 1234567890,
+    },
+    {
+        name: "Ali",
+        age: 35,
+        cellPhoneNum: 1234567890,
+    },
+    {
+        name: "Ahmed",
+        age: 45,
+        cellPhoneNum: 1234567890,
+    }
+]
 
 
-//While Loop
 
-let k = 0;
-
-while (k <= 10) {
-    console.log(k);
-    k++;
-}
-
-
-// 2 X 1 = 2
-// 2 X 2 = 4
-// 2 X 3 = 6
-
+nsfMernBatch.map((student, index) => {
+    return console.log(`Sno: ${index + 1}, Name: ${student.name}`)
+})
